@@ -1,0 +1,134 @@
+
+@import url("https://fonts.google.com/specimen/Poppins");
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    font-family:sans-serif ;
+    background: white;
+}
+
+#containner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 90%;
+    background: url("images/bg-intro-desktop.png") hsl(0, 100%, 74%);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+}
+
+.left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
+
+.small-containner {
+    width: 90%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right{
+    height: 90%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.write {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: 80%;
+    background: white;
+    border: none;
+    border-radius: .4em;
+    box-shadow: 0px 8px 2px  hsl(245, 6%, 66%,0.5);
+}
+
+.tete {
+    width: 80%;
+    height: 40px;
+    border:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+    border-radius: .4em;
+    box-shadow: 0px 8px 2px  hsl(245, 6%, 66%,0.299);
+    background:  hsl(248, 32%, 49%)  ;
+}
+
+input {
+    width: 270px;
+    height: 40px;
+    border-radius: .3em;
+    color: white;
+    border:.5px solid rgb(219, 212, 212);
+}
+.vvv {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+
+p {
+    text-align: center;
+    font-size: 12px;
+}
+
+b {
+    color: hsl(0, 100%, 74%);
+}
+.fff {
+    background:hsl(154, 59%, 51%) ;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.fff:hover {
+    transform: scale(1.004);
+    box-shadow: 0px 4px 2px  hsl(245, 6%, 66%,0.3);
+}
+h2 {
+    font-weight: 1000;
+    font-size: 25px;
+}
