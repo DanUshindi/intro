@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+  <script src="data.js" defer></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Intro component with sign up form</title>
@@ -15,9 +15,11 @@
       <div class="left">
         <div class="small-containner">
           <h1> Learn to code by <br/>watching others</h1>
-          <h6>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-            but understanding how developers think is invaluable.
-          </h6>
+          <div class="lelo">
+            <h6>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+              but understanding how developers think is invaluable.
+            </h6>
+          </div>
         </div>
       </div>
       <div class="right">
@@ -26,12 +28,12 @@
         </div>
         <div class="write">
           <div class="vvv">
+            <input type="text" onclick="nyFunction()" class="same" placeholder="  First name"  required>
             <input type="text" class="same" placeholder="  First name"  required>
             <input type="text" class="same" placeholder="  First name"  required>
             <input type="text" class="same" placeholder="  First name"  required>
-            <input type="text" class="same" placeholder="  First name"  required>
-            <input type="submit" value="Claim your free trial " class="fff" onclick="">
-            
+            <button type="submit"  class="fff" onclick="myFunction()">CLAIM YOUR FREE TRIALS</button>
+          
           </div>
           <p>By clicking the button, you are agreeing to our <b>Terms and Services</b> </p>
           </div>
